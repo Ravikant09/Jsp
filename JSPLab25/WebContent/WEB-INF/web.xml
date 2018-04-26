@@ -1,0 +1,15 @@
+<web-app >
+
+  <display-name>JSPLab25</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>dServlet</servlet-name>
+    <servlet-class>com.sunny.servlets.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dServlet</servlet-name>
+    <url-pattern>/download.sunny</url-pattern>
+  </servlet-mapping>
+</web-app>

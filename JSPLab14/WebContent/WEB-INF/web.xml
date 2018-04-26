@@ -1,0 +1,39 @@
+<web-app>
+
+  <display-name>JSPLab14</display-name>
+
+	<welcome-filei-list>
+	
+	
+	<welcome-file>index.jsp</welcome-file>
+	
+	</welcome-filei-list>
+
+	<context-param>
+	
+	<param-name>state</param-name>
+	<param-value>ASSAM</param-value>
+	
+	</context-param>
+
+	<context-param>
+	
+	<param-name>city</param-name>
+	<param-value>Silchar</param-value>
+	
+	</context-param>
+
+	<servlet>
+	
+	<servlet-name>testServlet</servlet-name>
+	<servlet-class>com.sunny.servlets.TestServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	
+	<servlet-name>testServlet</servlet-name>
+	<url-pattern>/test.sunny</url-pattern>
+	
+	</servlet-mapping>
+
+</web-app>

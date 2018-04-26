@@ -1,0 +1,15 @@
+<taglib>
+
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+
+<uri>WEB-INF/mysunny</uri>
+<tag>
+
+<name>upper</name>
+<tag-class>com.sunny.tags.UpperTag</tag-class>
+<body-content>jsp</body-content>
+<description>This is Upper Tag</description>
+</tag>
+
+</taglib>

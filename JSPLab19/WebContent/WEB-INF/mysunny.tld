@@ -1,0 +1,34 @@
+<taglib>
+
+<tlib-version>1.0</tlib-version>
+<jsp-version>1.2</jsp-version>
+
+<uri>http://sunny.com/tags</uri>
+<tag>
+
+<name>error</name>
+
+<tag-class>com.sunny.tags.ErrorTag</tag-class>
+
+<body-content>empty</body-content>
+
+<description>This is error Tag</description>
+
+
+
+
+<attribute>
+
+<name>property</name>
+<required>true</required>
+<rtexprvalue>false</rtexprvalue>
+
+</attribute>
+
+</tag>
+
+
+</taglib>
+
+
+<!-- we can use as many attributes as we want  -->
